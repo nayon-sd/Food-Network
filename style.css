@@ -62,7 +62,6 @@ section{
     line-height: 2;
 }
 
-
  /* recipies & followers section style */
 
  .recipie-title-part h2{
@@ -155,6 +154,95 @@ section{
     text-align: center;
     margin-left: 80px;
     line-height: 2;
+}
+
+/* catering section style */
+
+#catering{
+    background-image: url(img/food/b4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.catering-title{
+    padding-top: 35px;
+}
+#catering h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+#catering p{
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+.catering-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.catering-container-inner{
+    margin-left: 10%; 
+}
+.catering-food{
+    width: 280px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 20px;
+}
+.catering-food h2{
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.catering-container .container-food{
+    width: 300px;
+    height: 320px;
+}
+.catering-container .catering-food img{
+    width: 175px;
+    height: 180px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 100px
+}
+
+/* our achivement section style */
+
+#our-achivement{
+    background-color: #eee3e3
+}
+.half-width .quote{
+    width: 45px;
+    height: 45px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+}
+#our-achivement h2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 36px;
+}
+#our-achivement p{
+    margin-right: 120px;
+    line-height: 2;
+    margin-left: 70px;
+
+}
+.half-width img.signature{
+    width: 150px;
+    height: 50px;
+    margin-top: 22px;
+    margin-left: 67px;
+}
+.half-width img.owner{
+    width: 400px;
+    height: auto;
+    margin-left: 80px;
 }
 
 /* footer section style */
